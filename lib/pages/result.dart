@@ -19,9 +19,7 @@ class _ResultState extends State<Result> {
         backgroundColor: Colors.blue[800],
         elevation: 10.0,
       ),
-      body: Center(
-        child: Text('Coming Soon')
-      ),
+      body: const Center(child: Text('Coming Soon')),
     );
   }
 }
